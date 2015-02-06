@@ -347,3 +347,7 @@ nnoremap <silent> <F8> :NERDTreeTabsToggle<CR>
 
 " --- SnipMate
 let g:snipMateAllowMatchingDot = 0
+
+" --- QFEnter
+let g:qfenter_topen_map = ['t']
+let g:qfenter_vopen_map = ['v']
