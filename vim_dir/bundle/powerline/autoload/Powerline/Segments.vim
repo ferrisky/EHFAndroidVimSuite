@@ -6,7 +6,7 @@ let g:Powerline#Segments#segments = Pl#Segment#Init(
 	\ Pl#Segment#Create('fileinfo',
 		\ Pl#Segment#Create('flags.ro'    , '%{&readonly ? "$RO" : ""}'),
 		\ Pl#Segment#Create('name'        , '%t'),
-		\ Pl#Segment#Create('func_name'        , ': %{tagbar#currenttag("%s","")}'),
+		\ Pl#Segment#Create('func_name'        , ': %{(tagbar#currenttag("%s","") == "" ? "" : (tagbar#currenttag("%s","")))} '),
 		\ Pl#Segment#Create('flags.mod'   , '%M'),
 		\ Pl#Segment#Create('flags.type'  , '%H%W'),
 	\ ),
