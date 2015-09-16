@@ -2,7 +2,7 @@
 "
 " open NERDTree on gvim/macvim startup
 if !exists('g:nerdtree_tabs_open_on_gui_startup')
-  let g:nerdtree_tabs_open_on_gui_startup = 1
+  let g:nerdtree_tabs_open_on_gui_startup = 0
 endif
 
 " open NERDTree on console vim startup (off by default)
