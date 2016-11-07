@@ -1,5 +1,8 @@
 # EHFAndroidVimSuite
 
+### Install ctags first.
+`apt-get install exuberant-ctags`
+
 ### Process to create gtags in Android
 <!-- goto android root-->
 	cd \<ANDROID_ROOT>
